@@ -1,0 +1,707 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JDialog" name="simulationChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="506" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="simulationChooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="326" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="simulationChooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JFileChooser" name="simulationChooser">
+          <Properties>
+            <Property name="approveButtonText" type="java.lang.String" value="Open"/>
+            <Property name="approveButtonToolTipText" type="java.lang.String" value=""/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simulationChooserActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="simulationNameChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="simulationNameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="simulationNameField" pref="150" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                  <Component id="simulationNameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="simulationNameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="simulationNameField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="name..."/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="simulationNameFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="simulationNameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="file name:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="particle1ChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="506" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="particle1Chooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="326" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="particle1Chooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JFileChooser" name="particle1Chooser">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="particle1ChooserActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="particle2ChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="506" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="particle2Chooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="326" max="32767" attributes="0"/>
+              <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                      <Component id="particle2Chooser" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JFileChooser" name="particle2Chooser">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="particle2ChooserActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="particle1NameChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="particle1NameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="particle1NameField" pref="150" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                  <Component id="particle1NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="particle1NameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="particle1NameField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="name..."/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="particle1NameFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="particle1NameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="file name:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JDialog" name="particle2NameChooserDialog">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <Component id="particle2NameLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="particle2NameField" pref="150" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                  <Component id="particle2NameField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="particle2NameLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JTextField" name="particle2NameField">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="name..."/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="particle2NameFieldActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="particle2NameLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="file name:"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="Controls"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="loadSimulationButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="saveSimulationButton" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="conserveCheckBox" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="runTImeLabel" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" max="-2" attributes="0"/>
+                      <Component id="runTimeField" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nameLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nameField1" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chargeLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chargeField1" min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="loadButton1" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="saveButton1" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="radiusLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="radiusField1" min="-2" pref="49" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="massLabel1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="massField1" min="-2" pref="66" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="xLabel1" min="-2" max="-2" attributes="0"/>
+                          <Component id="yLabel1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="coordinateField1x" pref="48" max="32767" attributes="0"/>
+                          <Component id="coordinateField1y" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="playButton" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+          <Group type="102" attributes="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nameLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="nameField2" max="32767" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="loadButton2" min="-2" pref="103" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="saveButton2" max="32767" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="radiusLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="radiusField2" min="-2" pref="49" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="massLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="massField2" min="-2" pref="66" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="chargeLabel2" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="chargeField2" min="-2" pref="65" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="xLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="yLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="coordinateField2x" alignment="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="coordinateField2y" alignment="0" min="-2" pref="48" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jScrollPane1" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinateField1x" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="xLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chargeField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chargeLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinateField1y" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="massField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="massLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radiusField1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radiusLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinateField2x" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="xLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chargeField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="chargeLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="nameLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="coordinateField2y" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="yLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="massField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="massLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radiusField2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="radiusLabel2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" pref="108" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="playButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="saveSimulationButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="loadSimulationButton" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="runTimeField" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="runTImeLabel" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="conserveCheckBox" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JTextField" name="coordinateField1x">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="300"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="coordinateField1xFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="coordinateField1xActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinateField1y">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="400"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="coordinateField1yFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="coordinateField1yActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x:"/>
+        <Property name="toolTipText" type="java.lang.String" value="x-coordinate of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="y:"/>
+        <Property name="toolTipText" type="java.lang.String" value="y-coordinate of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="chargeField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="-1.0E-3"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in coulombs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="chargeField1FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chargeField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="massField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="200.0"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in kg"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="massField1FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="massField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="massLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mass:"/>
+        <Property name="toolTipText" type="java.lang.String" value="mass of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="chargeLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="charge:"/>
+        <Property name="toolTipText" type="java.lang.String" value="electrical charge of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="red"/>
+        <Property name="toolTipText" type="java.lang.String" value="name of red particle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="nameField1FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="radiusField1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="20.0"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="radiusField1FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radiusField1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="name:"/>
+        <Property name="toolTipText" type="java.lang.String" value="name of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="radiusLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="radius:"/>
+        <Property name="toolTipText" type="java.lang.String" value="radius of red particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="loadButton1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadButton1ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JToggleButton" name="playButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Play!"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="playButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveSimulationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save Simulation"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveSimulationButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="loadSimulationButton">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load Simulation"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadSimulationButtonActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="xLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="x:"/>
+        <Property name="toolTipText" type="java.lang.String" value="x-coordinate of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JButton" name="loadButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Load..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="loadButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="yLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="y:"/>
+        <Property name="toolTipText" type="java.lang.String" value="y-coordinate of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="chargeField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1.0E-3"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in coulombs"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="chargeField2FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="chargeField2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="massField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="200.0"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in kg"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="massField2FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="massField2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="massLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="mass:"/>
+        <Property name="toolTipText" type="java.lang.String" value="mass of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="chargeLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="charge:"/>
+        <Property name="toolTipText" type="java.lang.String" value="electrical charge of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="nameField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="blue"/>
+        <Property name="toolTipText" type="java.lang.String" value="name of blue particle"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="nameField2FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="nameField2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="radiusField2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="20.0"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="radiusField2FocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="radiusField2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="nameLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="name:"/>
+        <Property name="toolTipText" type="java.lang.String" value="name of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinateField2x">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="420"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="coordinateField2xFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="coordinateField2xActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="radiusLabel2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="radius:"/>
+        <Property name="toolTipText" type="java.lang.String" value="radius of blue particle"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="coordinateField2y">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="500"/>
+        <Property name="toolTipText" type="java.lang.String" value="unit in meters"/>
+      </Properties>
+      <Events>
+        <EventHandler event="focusLost" listener="java.awt.event.FocusListener" parameters="java.awt.event.FocusEvent" handler="coordinateField2yFocusLost"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="coordinateField2yActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="saveButton2">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Save..."/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="saveButton2ActionPerformed"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="lineWrap" type="boolean" value="true"/>
+            <Property name="rows" type="int" value="5"/>
+            <Property name="text" type="java.lang.String" value="READ ME!&#xa;Welcome to the electric field simulation! Change the particle variables above however you want. If you input text into the numerical fields, no changes will be saved. Once you&apos;re done, press &apos;play&apos; to see it in action.  If you have a big acceleration or velocity please be aware your particle may fly away. Variable details are explained in tooltips. To load or save individual particles, use their respective load or save buttons. To save the simulation, use the load or save button below. Note that saved files are stored in the same directory as this program. &#xa;You may edit this text box to take notes.&#xa;&#xa;To prevent crashes, it is recommended that the ratio of charges between particles not exceed double(2).&#xa;&#xa;Simulation details:&#xa;Width = 1200 meters&#xa;Height = 800 meters&#xa;(Each meter corrspeonds to a pixel)&#xa;Coulomb&apos;s constant = 8.98755E+9 N m^2 C^-2"/>
+            <Property name="wrapStyleWord" type="boolean" value="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JTextField" name="runTimeField">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="1000"/>
+        <Property name="toolTipText" type="java.lang.String" value="time in millisecond"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="runTImeLabel">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="running time:"/>
+        <Property name="toolTipText" type="java.lang.String" value="How long the simulation should run"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JCheckBox" name="conserveCheckBox">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Conserve Motion"/>
+        <Property name="toolTipText" type="java.lang.String" value="Select to conserve the acceleration and velocity from the previous simulation."/>
+      </Properties>
+    </Component>
+  </SubComponents>
+</Form>
